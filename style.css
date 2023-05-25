@@ -1,0 +1,82 @@
+#titulo { 
+    
+    color: tomato   
+}
+
+
+.texto {
+color: mediumaquamarine
+}
+
+.texto_especial {
+color:blueviolet 
+
+}
+
+div p{
+    color: aquamarine
+}
+
+
+div h2,  h3{
+    color: brown
+}
+
+/* *{ font-size: 24px;
+color: blue
+} */
+
+/*.color{
+    color: #00f;
+}*/
+
+/*  Esto es un comentario */
+
+/*.color{
+    color: rgb(255,0,255)
+} */
+
+.color{
+   
+    /* border: 5px black outset; */
+    color:brown;
+    font-size: 32px;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 0.1cm;
+}
+
+/* # de un id  y . da una clase ?*/
+
+#fondo{
+    background-color: red;
+    font-size: large;
+    border-style: dashed;
+    height: 400px; 
+    background-image: url("coffee.png");
+    background-size: contain;
+    background-size: 400px 400px; 
+    background-repeat: repeat-x;
+    background-position: center; 
+    
+}
+
+
+.margen{
+    background-color: chocolate;
+    height: 50px;
+    margin: 15px;
+    padding: 30px 15px 5px ;
+    border: solid 5px black;
+    width: 50px;
+    overflow: scroll;
+    outline: 5px solid red;
+}
+
+.texto{
+    font-family: "Roboto"; 
+    text-align: justify;
+    text-decoration: line-through;
+    text-shadow: 3px 5px 10px blue;
+}
